@@ -2,7 +2,7 @@
 
 docker run \
         --rm  \
-        -v ~/projects/rf-docker/robot/tests:/home/robot/tests \
-        -v ~/projects/rf-docker/robot/results:/home/robot/results \
-        rfdocker-saurabh:latest \
+        -v $PWD/robot/tests:/home/robot/tests \
+        -v $PWD/robot/results:/home/robot/results \
+        <your-image-name>:<tag-name> \
         /home/robot/tests/
