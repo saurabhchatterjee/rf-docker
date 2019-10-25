@@ -1,7 +1,7 @@
 # rf-docker
 Docker implmentation of Robot Framework with web utilities
 
-To use this, you need to have docker installed. This image is based on robotframework/rfdocker[https://hub.docker.com/r/robotframework/rfdocker] and enhances on it to install other utilities including selenium.
+To use this, you need to have docker installed. This image is based on [robotframework/rfdocker](https://hub.docker.com/r/robotframework/rfdocker) and enhances on it to install other utilities including selenium.
 This image is focused for automated headless web testing.
 Steps (assuming you are in rf-docker folder):
 1. Build the image
