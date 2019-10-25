@@ -1,2 +1,2 @@
 # rf-docker
-Docker implmentation of Robot Framework with required utilities
+Docker implmentation of Robot Framework with web utilities
