@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.8 on linux)" generated="20191025 15:18:13.959" rpa="false">
+<suite id="s1" name="Tests" source="/home/robot/tests">
+<suite id="s1-s1" name="Chrome-Test" source="/home/robot/tests/chrome-test.robot">
+<test id="s1-s1-t1" name="Execute On Chrome">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://robotframework.org/</arg>
+<arg>browser=headlesschrome</arg>
+</arguments>
+<msg timestamp="20191025 15:18:14.193" level="INFO">Opening browser 'headlesschrome' to base url 'https://robotframework.org/'.</msg>
+<status status="PASS" starttime="20191025 15:18:14.192" endtime="20191025 15:18:21.364"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20191025 15:18:21.546" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20191025 15:18:21.364" endtime="20191025 15:18:21.546"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>Libraries</arg>
+</arguments>
+<msg timestamp="20191025 15:18:21.546" level="INFO">Clicking link 'Libraries'.</msg>
+<status status="PASS" starttime="20191025 15:18:21.546" endtime="20191025 15:18:21.793"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20191025 15:18:21.876" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20191025 15:18:21.793" endtime="20191025 15:18:21.877"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>css:#__BVID__62___BV_tab_button__</arg>
+</arguments>
+<msg timestamp="20191025 15:18:21.877" level="INFO">Clicking link 'css:#__BVID__62___BV_tab_button__'.</msg>
+<status status="PASS" starttime="20191025 15:18:21.877" endtime="20191025 15:18:21.963"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20191025 15:18:22.042" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20191025 15:18:21.963" endtime="20191025 15:18:22.043"></status>
+</kw>
+<doc>A basic test to see if the chromedriver is working.</doc>
+<tags>
+<tag>chrome</tag>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" starttime="20191025 15:18:14.191" endtime="20191025 15:18:22.043" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191025 15:18:13.987" endtime="20191025 15:18:22.044"></status>
+</suite>
+<suite id="s1-s2" name="Firefox-Test" source="/home/robot/tests/firefox-test.robot">
+<test id="s1-s2-t1" name="Execute On Firefox">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://robotframework.org/</arg>
+<arg>browser=headlesschrome</arg>
+</arguments>
+<msg timestamp="20191025 15:18:22.050" level="INFO">Opening browser 'headlesschrome' to base url 'https://robotframework.org/'.</msg>
+<status status="PASS" starttime="20191025 15:18:22.050" endtime="20191025 15:18:28.962"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20191025 15:18:29.066" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20191025 15:18:28.963" endtime="20191025 15:18:29.066"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>Libraries</arg>
+</arguments>
+<msg timestamp="20191025 15:18:29.066" level="INFO">Clicking link 'Libraries'.</msg>
+<status status="PASS" starttime="20191025 15:18:29.066" endtime="20191025 15:18:29.295"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20191025 15:18:29.373" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20191025 15:18:29.296" endtime="20191025 15:18:29.373"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>css:#__BVID__62___BV_tab_button__</arg>
+</arguments>
+<msg timestamp="20191025 15:18:29.373" level="INFO">Clicking link 'css:#__BVID__62___BV_tab_button__'.</msg>
+<status status="PASS" starttime="20191025 15:18:29.373" endtime="20191025 15:18:29.507"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20191025 15:18:29.706" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20191025 15:18:29.508" endtime="20191025 15:18:29.707"></status>
+</kw>
+<doc>A basic test to see if the geckodriver is working.</doc>
+<tags>
+<tag>chrome</tag>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" starttime="20191025 15:18:22.049" endtime="20191025 15:18:29.707" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191025 15:18:22.046" endtime="20191025 15:18:29.708"></status>
+</suite>
+<suite id="s1-s3" name="Linux-Version-Test" source="/home/robot/tests/linux-version-test.robot">
+<test id="s1-s3-t1" name="Check Linux Version">
+<kw name="Run" library="OperatingSystem">
+<doc>Runs the given command in the system and returns the output.</doc>
+<arguments>
+<arg>lsb_release -a</arg>
+</arguments>
+<assign>
+<var>${file_con}</var>
+</assign>
+<msg timestamp="20191025 15:18:29.794" level="INFO">Running command 'lsb_release -a 2&gt;&amp;1'.</msg>
+<msg timestamp="20191025 15:18:29.794" level="INFO">${file_con} = /bin/sh: lsb_release: not found</msg>
+<status status="PASS" starttime="20191025 15:18:29.786" endtime="20191025 15:18:29.794"></status>
+</kw>
+<status status="PASS" starttime="20191025 15:18:29.779" endtime="20191025 15:18:29.795" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191025 15:18:29.710" endtime="20191025 15:18:29.802"></status>
+</suite>
+<status status="PASS" starttime="20191025 15:18:13.960" endtime="20191025 15:18:29.817"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0">chrome</stat>
+<stat pass="2" fail="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Chrome-Test">Tests.Chrome-Test</stat>
+<stat pass="1" fail="0" id="s1-s2" name="Firefox-Test">Tests.Firefox-Test</stat>
+<stat pass="1" fail="0" id="s1-s3" name="Linux-Version-Test">Tests.Linux-Version-Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
