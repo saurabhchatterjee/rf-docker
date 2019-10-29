@@ -5,7 +5,9 @@ To use this, you need to have docker installed. This image is based on [robotfra
 This image is focused for automated headless web testing.
 Steps (assuming you are in rf-docker folder):
 1. Build the image
-> `docker build . -t \<your-image-name\>:\<your-tag-name\>`
+> `docker build . -t rf-sel:latest`
+>
+>> If you want to use a different name for your docker image, please make sure to use the same name in runner.sh script.
 2. Update the runner.sh file with your image name
 3. Run the runner.sh file
 > `bash runner.sh`
